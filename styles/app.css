@@ -1,0 +1,58 @@
+/*colors*/
+
+:root {
+ --white: #fff;
+ --white-semitr: #d7ccc0;
+ --light: #f5f4f0;
+ --main-color: #fe8a02;
+ --main-color-dark: #908d8b;
+ --dark: #2a2626;
+ --dark-semitr: #908d8b;
+ --brown: #b09a81;
+ --blue: #1085c5;
+}
+
+/*fonts*/
+
+@font-face {
+    font-family: OpenSans;
+    src: url(/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+    font-family: Neucha-Regular;
+    src: url(/assets/fonts/Neucha-Regular.ttf);
+}
+
+font-style {
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+}
+
+title-font {
+    font-family: Neucha-Regular;
+    line-height: 1.2em;
+}
+
+title-font h1 {
+    font-size: 72px;
+}
+
+title-font h2 {
+    font-size: 60px;
+}
+
+title-font h3 {
+    font-size: 34px;
+}
+
+/*main*/
+
+section-style {
+    max-width: 1110px;
+    margin: auto;
+    padding: 100px 0;
+}
+
