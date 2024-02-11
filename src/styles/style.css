@@ -1,17 +1,11 @@
 /** CSS STYLE **/
 
-.hello {
-  display: block;
-
-  color: #fff;
-}
-
-/*colors*/
+/* colors */
 
 :root {
   --white: #fff;
   --white-semitr: #d7ccc0;
-  --light: #f5f4f0;
+  --light: #F5F4F0;
   --main-color: #fe8a02;
   --main-color-dark: #908d8b;
   --dark: #2a2626;
@@ -19,48 +13,130 @@
   --brown: #b09a81;
   --blue: #1085c5;
  }
+
+ .main-color {
+    color: var(--main-color);
+ }
+
+ .text-dark {
+    color: var(--dark);
+ }
  
- /*fonts*/
+ /* fonts */
  
  @font-face {
      font-family: OpenSans;
-     src: url(/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf);
+     src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
  }
  
  @font-face {
      font-family: Neucha-Regular;
-     src: url(/assets/fonts/Neucha-Regular.ttf);
+     src: url("../fonts/Neucha-Regular.ttf");
  }
  
- font-style {
-     font-family: OpenSans;
+ .font-style {
+     font-family: OpenSans, sans-serif;
      font-size: 16px;
      line-height: 1.6em;
-     color: #2A2626;
+     color: var(--dark);
  }
  
- title-font {
-     font-family: Neucha-Regular;
+ .title-font {
+     font-family: Neucha-Regular, sans-serif;
      line-height: 1.2em;
+     font-weight: 400;
+     margin: 0;
+     margin-bottom: 175px;
+     z-index: 1;
  }
  
- title-font h1 {
+ .fs-72 {
      font-size: 72px;
  }
  
- title-font h2 {
+ .fs-60 {
      font-size: 60px;
  }
  
- title-font h3 {
+ .fs-34 {
      font-size: 34px;
  }
  
- /*main*/
- 
- section-style {
-     max-width: 1110px;
-     margin: auto;
-     padding: 100px 0;
+ /* main */
+ .bg {
+    display: flex;
+    flex-direction: column;
+ }
+ .bg::before {
+    content: '';
+    position: absolute;
+    background: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 1440px;
+    height: 914px;
+    opacity: 0.1;
+
+ }
+
+ .bg-color{
+    background-color: var(--light);
+    width: 100%;
+    height: 100%;
  }
  
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+ .image {
+    content: '';
+    position: absolute;
+    height: 525px;
+    top: 55px;
+    right: -270px;
+
+ }
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.left-column {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.right-column {
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+}
+ 
+.btn-style {
+    margin: 12px 24px;
+    width: 148px;
+    padding-top: 11.7px;
+    padding-bottom: 11.7px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--main-color);
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 176px;
+    margin-top: -44px;
+}
