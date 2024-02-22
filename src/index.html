@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body class="bg-light">
-    <header class="bg">
+    <header class="bg width-limits">
       <section class="content">
         <h1 class="main-color fs-72 mgn-btm" title font>
           Когнитивные <br />
@@ -64,7 +64,7 @@
     </section>
 
     <!--Navigation-->
-    <navigation class="mgn-0-10 flex">
+    <navigation class="mgn-0-10 flex width-limits">
       <div class="blocks bg-primary-dark pd-b-100">
         <ul>
           <!--1st row of menu-->
@@ -137,7 +137,7 @@
 
     <!--Section 1-->
 
-    <section class="bg" id="ikea-effect">
+    <section class="bg width-limits mgn-t-b-100" id="ikea-effect">
       <div class="content pd-top-100 pd-b-100">
         <div class="columns">
           <div>
@@ -179,7 +179,10 @@
 
     <!--Section 2-->
 
-    <section class="bg bg-brown" id="premature-optimization">
+    <section
+      class="bg bg-brown width-limits mgn-t-b-100"
+      id="premature-optimization"
+    >
       <div class="content pd-top-100 pd-b-100">
         <div class="columns">
           <div>
@@ -221,7 +224,7 @@
 
     <!--Section 3-->
 
-    <section class="bg" id="distortion-of-novelty">
+    <section class="bg width-limits mgn-t-b-100" id="distortion-of-novelty">
       <div class="content pd-top-100 pd-b-100">
         <div class="columns">
           <div>
@@ -263,7 +266,10 @@
 
     <!--Section 4-->
 
-    <section class="bg bg-brown" id="hyperbolic-depreciation">
+    <section
+      class="bg bg-brown width-limits mgn-t-b-100"
+      id="hyperbolic-depreciation"
+    >
       <div class="content pd-top-100 pd-b-100">
         <div class="columns">
           <div>
@@ -308,7 +314,7 @@
 
     <!--Section 5-->
 
-    <section class="bg" id="distortion-of-novelty">
+    <section class="mgn-t-b-100 bg width-limits" id="errors-in-planning">
       <div class="content pd-top-100 pd-b-100">
         <div class="columns">
           <div>
@@ -345,6 +351,47 @@
     </section>
 
     <!--End of section-->
-    <footer></footer>
+
+    <footer class="bg-white pd-top-100">
+      <div class="width-1110 mgn-auto mgn-t-b-100">
+        <div class="bg-primary-dark height-190 width-limits columns">
+          <h1 class="text-white fs-34">
+            Хотите узнать больше? <br />
+            Подпишитесь на обновления
+          </h1>
+          <div>
+            <form>
+              <label for="email" class="font-style fs-18 text-white"
+                >Электронная почта</label
+              >
+              <div class="flex">
+                <input
+                  id="email"
+                  type="text"
+                  placeholder="Ваша электронная почта"
+                  class="font-style fs-13"
+                />
+                <button class="send-btn" type="submit"></button>
+              </div>
+              <p class="font-style fs-12 text-white">
+                Подписываясь, вы принимаете
+                <a href="#" class="rules">правила сервиса</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="font-style fs-14 credits pd-b-100">
+        <p>© 2024 Noxeorn</p>
+        <p>
+          По материалам статьи
+          <a
+            href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b"
+            >Yash Ranadive Cognitive Biases in Programming</a
+          >
+        </p>
+        <a href="https://ru.hexlet.io/">Курсы программирования Hexlet</a>
+      </div>
+    </footer>
   </body>
 </html>
