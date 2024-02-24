@@ -151,7 +151,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
-  width: 1440px;
+  width: 1110px;
   height: 914px;
   opacity: 0.1;
 }
@@ -229,6 +229,7 @@ body {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   color: var(--white);
   background-color: var(--main-color);
 }
@@ -244,7 +245,7 @@ nav {
 }
 
 .mgn-btm {
-  margin-bottom: 165px;
+  margin-bottom: 180px;
 }
 
 .mgn-auto {
