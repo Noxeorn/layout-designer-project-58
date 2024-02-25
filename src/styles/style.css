@@ -126,7 +126,6 @@ h3 {
 
 body {
   margin: 0;
-  overflow-x: hidden;
 }
 
 .width-limits {
@@ -272,10 +271,6 @@ nav {
   margin-bottom: -5px;
 }
 
-.mgn-0-10 {
-  margin: 0 -10px;
-}
-
 .mgn-l-30 {
   margin-left: 30px;
 }
@@ -299,6 +294,10 @@ nav {
 
 .mgn-btm-30 {
   margin-bottom: 30px;
+}
+
+.pd-btm-50 {
+  padding-bottom: 50px;
 }
 
 .pd-b-100 {
