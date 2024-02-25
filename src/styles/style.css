@@ -126,6 +126,7 @@ h3 {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .width-limits {
@@ -147,6 +148,7 @@ body {
 .bg::before {
   content: "";
   position: absolute;
+  left: 0px;
   background: url("../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -264,6 +266,10 @@ nav {
 .mgn-27-30 {
   margin-top: 27px;
   margin-bottom: 30px;
+}
+
+.mgn-btm-5 {
+  margin-bottom: -5px;
 }
 
 .mgn-0-10 {
