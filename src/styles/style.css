@@ -267,42 +267,12 @@ nav {
   z-index: 1;
 }
 
-.mgn-27-30 {
-  margin-top: 27px;
-  margin-bottom: 30px;
+.mgn-top-200 {
+  margin-top: -200px;
 }
 
 .mgn-btm-5 {
   margin-bottom: -5px;
-}
-
-.mgn-l-30 {
-  margin-left: 30px;
-}
-
-.mgn-b-30 {
-  margin-bottom: 30px;
-}
-
-.mgn-b-200 {
-  margin-bottom: -200px;
-}
-
-.mgn-top-100 {
-  margin-top: 100px;
-}
-
-.mgn-t-b-100 {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.mgn-btm-30 {
-  margin-bottom: 30px;
-}
-
-.pd-btm-50 {
-  padding-bottom: 50px;
 }
 
 .pd-b-100 {
@@ -311,15 +281,6 @@ nav {
 
 .pd-top-100 {
   padding-top: 100px;
-}
-
-.pd-24 {
-  padding: 24px;
-}
-
-.mgn-pd-0 {
-  margin: 0;
-  padding: 0;
 }
 
 .blocks {
