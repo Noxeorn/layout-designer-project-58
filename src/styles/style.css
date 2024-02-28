@@ -271,6 +271,15 @@ nav {
   margin-top: -200px;
 }
 
+.mgn-top-100 {
+  margin-top: 100px;
+}
+
+.mgn-t-b-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .mgn-btm-5 {
   margin-bottom: -5px;
 }
