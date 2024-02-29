@@ -37,7 +37,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+.font-style2 {
   font-family: Neucha-Regular, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
@@ -124,6 +125,11 @@ h3 {
 
 .fs-12 {
   font-size: 12px;
+}
+
+.fw-700 {
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* main */
@@ -305,6 +311,10 @@ nav {
   margin-bottom: -5px;
 }
 
+.mgn-btm-05 {
+  margin-bottom: 0.5em;
+}
+
 .relative-36 {
   position: relative;
   top: 38px;
@@ -325,6 +335,10 @@ nav {
 
 .pd-top-100 {
   padding-top: 100px;
+}
+
+.pd-l-10 {
+  padding-left: 10px;
 }
 
 .blocks {
