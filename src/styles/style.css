@@ -267,8 +267,8 @@ nav {
   z-index: 1;
 }
 
-.mgn-top-200 {
-  margin-top: -200px;
+.mgn-top-150 {
+  margin-top: -150px;
 }
 
 .mgn-top-100 {
@@ -284,13 +284,18 @@ nav {
   margin-bottom: -5px;
 }
 
-.pd-b-100 {
+.relative-36 {
+  position: relative;
+  top: 36px;
+}
+
+/*.pd-b-100 {
   padding-bottom: 100px;
 }
 
 .pd-top-100 {
   padding-top: 100px;
-}
+}*/
 
 .blocks {
   flex-direction: column;
